@@ -158,3 +158,37 @@ body {
     color: $color-secondary;
     font-size: 20px;
 }
+
+.footer{
+    background-color: $background-color-secondary;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 600px;
+    padding: 50px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: auto;
+}
+
+
+.footer-menu-list{
+    list-style: none;
+
+}
+
+.footer-menu-list li{
+    margin-bottom: 10px;
+}
+
+.footer-menu-list li a{
+    color: $color-header;
+    text-decoration: none;
+}
